@@ -11,7 +11,7 @@ export function classificarIdade(idade) {
     return "adulto"
   }
   else if(idade >= 12){
-    return"adolecente"
+    return"adolescente"
   }
   else{
     return"criança"
@@ -49,5 +49,13 @@ let soma = 0
 
 // Exercício 5 — contarLetra
 export function contarLetra(texto, letra) {
-  // escreva seu código aqui
+let contador = 0
+
+  for (const caractere of texto) {
+    if (caractere === letra) {
+      contador++
+    }
+  }
+
+  return contador
 }
