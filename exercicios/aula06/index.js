@@ -12,7 +12,7 @@ export function criarSaudacao(nome) {
 
 // Exercício 2 — filtrarAprovados
 export function filtrarAprovados(alunos) {
-  return alunos.filter(aluno => aluno.nota >= 7);
+  return alunos.filter(aluno => aluno.nota >= 60);
 }
 
 // Exercício 3 — extrairNomes
