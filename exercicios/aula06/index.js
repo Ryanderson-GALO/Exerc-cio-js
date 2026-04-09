@@ -22,7 +22,7 @@ export function extrairNomes(alunos) {
 
 // Exercício 4 — buscarAluno
 export function buscarAluno(alunos, nome) {
-  // escreva seu código aqui
+return alunos.find(aluno => aluno.nome === nome);
 }
 
 // Exercício 5 — calcularMedia
