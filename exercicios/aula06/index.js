@@ -27,5 +27,7 @@ return alunos.find(aluno => aluno.nome === nome);
 
 // Exercício 5 — calcularMedia
 export function calcularMedia(notas) {
-  // escreva seu código aqui
+if (notas.length === 0) return 0;
+  const soma = notas.reduce((acumulador, nota) => acumulador + nota, 0);
+  return soma / notas.length;
 }
