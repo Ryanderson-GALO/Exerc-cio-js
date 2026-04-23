@@ -7,7 +7,7 @@
 
 // Exercício 1 — objetoParaJSON
 export function objetoParaJSON(objeto) {
-  // escreva seu código aqui
+  return JSON.stringify(objeto);
 }
 
 // Exercício 2 — jsonParaObjeto
