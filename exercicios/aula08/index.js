@@ -5,6 +5,10 @@
 // Rode os testes com: npx vitest run exercicios/aula08
 // Não mexa no arquivo index.test.js.
 
-// 1. Importando named exports
+// 1. Importe as funções nomeadas de './utils/matematica.js'
+//Funções: somar, subtrair, multiplicar, dividir
 import { somar, subtrair, multiplicar, dividir } from './utils/matematica.js';
+// 2. Importe a função default de './utils/texto.js'
+import formatarNome from './utils/texto.js'
+
 export { somar, subtrair, multiplicar, dividir, formatarNome }
